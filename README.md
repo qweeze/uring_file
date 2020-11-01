@@ -16,3 +16,8 @@ async with uring_file.open('hello.txt') as f:
     async for line in f:
         print(line)
 ```
+
+### Links
+
+- [Python wrapper](https://github.com/YoSTEALTH/Liburing) for liburing
+- [Lord of the io_uring](https://unixism.net/loti/) tutorial
