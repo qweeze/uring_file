@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache
+.mypy_cache
+*.egg-info
+
+.idea/
+.vscode/
+.vim/
+
+venv/
+.git/
+.cache/

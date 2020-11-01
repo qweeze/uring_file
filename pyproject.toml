@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "uring_file"
+version = "0.1.0"
+description = ""
+authors = ["qweeze <qweeeze@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+liburing = "^2020.7.13"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
